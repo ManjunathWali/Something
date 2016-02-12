@@ -1,5 +1,5 @@
 #!/bin/bash
-source ../setenv.sh
+source setenv.sh
 
 echo -e "\nCalling the weather API for Palo Alto, CA"
 echo -e "\nCalling: curl http://$org-$env.$api_domain/v0/weather/forecastrss?w=12797282\n"
